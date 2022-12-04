@@ -1,0 +1,96 @@
+<html>
+		<head>
+			<title>Makeup Maven</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width" initial-scale=1>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		</head>
+		<style>
+			body{
+				background-image: url(cricket.jpg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			div{
+				color: darkred;
+				text-align: center;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+                cursive, sans-serif;
+			}
+			img{
+				height: 300px;
+                width: 250px;
+				padding-bottom: 30px;
+			}
+			button{
+				margin-top: 10px;
+			}
+		</style>
+        <body>
+			<div class="container mt-3">
+				<div class="row" >
+					<div class="col-lg-1"><i class="bi bi-list" style="font-size: 2rem;"></i></div>
+					<div class="col-lg-1"><i class="bi bi-house-door-fill" style="font-size: 2rem;"></i></div>
+					<div class="col-lg-8"><h2 class="display-6" style="color:black;font-weight:600;">Makeup Maven</h2></div>
+					<div class="col-lg-1"><i class="bi bi-person-circle" style="font-size: 2rem;"></i></div>
+					<div class="col-lg-1"><i class="bi bi-cart-fill" style="font-size: 2rem;"></i></div>
+                <div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 "><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_a54f79089ffd43e39f4e208568809894~mv2.jpg/v1/fill/w_339,h_339,al_c,q_80,usm_0.66_1.00_0.01/f9c974_a54f79089ffd43e39f4e208568809894~mv2.webp"/>
+						<b><br>On Purpose Lipgloss</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:75px; font-weight:bold;" name="cost" value="$20.00"><del><small>$30.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="On Purpose Lipgloss">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_3ea98618495f4603aed0dbe18b07181e~mv2.jpg/v1/fill/w_621,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_3ea98618495f4603aed0dbe18b07181e~mv2.webp">
+						<b><br>Rosed Hush</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$45.00"><del><small>$50.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Rosed Hush">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_0ebbc0373fac4e51b5351348e62f656b~mv2.jpg/v1/fill/w_620,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_0ebbc0373fac4e51b5351348e62f656b~mv2.webp" >
+						<b><br>Maven Makeup Lipstick</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$50.00"><del><small>$60.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Dsc Bat">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 "><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_fde41bde260044d88331a2fcc05e6e90~mv2_d_6193_8263_s_4_2.jpg/v1/fill/w_620,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_fde41bde260044d88331a2fcc05e6e90~mv2_d_6193_8263_s_4_2.webp">
+						<b><br>Maven Makeup Flawless Face</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:75px; font-weight:bold;" name="cost" value="$34.00"><del><small>$40.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Maven Makeup Flawless Face">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_a331a087ec9d488bba4b2107498b6706~mv2.jpg/v1/fill/w_620,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_a331a087ec9d488bba4b2107498b6706~mv2.webp" >
+						<b><br>Maven Makeup Loose Powder</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$65.00"><del><small>$75.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Maven Makeup Loose Powder">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_794ec3ac74144fe1811a127eeec90e7e~mv2_d_6037_8054_s_4_2.jpg/v1/fill/w_620,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_794ec3ac74144fe1811a127eeec90e7e~mv2_d_6037_8054_s_4_2.webp" >
+						<b><br>Maven Makeup BB Cream</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$50.00"><del><small>$55.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Maven Makeup BB Cream">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_ac88af4fcef045c7926d48e205ff0f41~mv2.jpg/v1/fill/w_620,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_ac88af4fcef045c7926d48e205ff0f41~mv2.webp" >
+						<b><br>Maven Makeup Mascara</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$65.00"><del><small>$70.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Maven Makeup Mascara">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_500d07872e044c549399953eeb29642a~mv2.jpg/v1/fill/w_557,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_500d07872e044c549399953eeb29642a~mv2.webp">
+						<b><br>Maven Makeup Longwear Mascara</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$75.00"><del><small>$90.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Maven Makeup Longwear Mascara">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_4a59cc48fd6d498891729513343f44c0~mv2.jpg/v1/fill/w_512,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_4a59cc48fd6d498891729513343f44c0~mv2.webp">
+						<b><br>Maven Makeup Curling & Volume Mascara</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$80.00"><del><small>$82.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Maven Makeup Curling & Volume Mascara">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+                    <div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_3e4e126515684782b2942b1edae26ace~mv2.jpg/v1/fill/w_465,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_3e4e126515684782b2942b1edae26ace~mv2.webp" >
+						<b><br>Expert blush</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$25.00"><del><small>$30.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Expert blush">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img rounded" src="https://static.wixstatic.com/media/f9c974_8ba05c2cc4fa4ebfa01a94293eb29b64~mv2.jpg/v1/fill/w_1023,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_8ba05c2cc4fa4ebfa01a94293eb29b64~mv2.webp">
+						<b><br>Daydreams</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$40.00"><del><small>$45.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Daydreams">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12"><img class="img roundbtn btn-successed" src="https://static.wixstatic.com/media/f9c974_c359de8e9518442181d3d2d17bd3477f~mv2.jpg/v1/fill/w_1023,h_827,al_c,q_85,usm_0.66_1.00_0.01/f9c974_c359de8e9518442181d3d2d17bd3477f~mv2.webp">
+						<b><br>Praline</b><br>
+						<form action="addedToCart" method="GET"><input type="text" style="width:65px; font-weight:bold;" name="cost" value="$50.00"><del><small>$51.00</small></del><br><button type="submit" class="btn btn-success" name="item" value="Praline">ADD TO CART <i class="bi bi-cart4"></i></button></form>
+					</div>
+                </div><br><br>
+				<form action="cart" method="GET">
+					<center><input type="submit" class="btn btn-warning" style="width:30%;font-weight: bold; color: black;" value="GO TO CART"></center>
+				</form><br><br>
+            </div>
+		</body>
+</html>
+		
